@@ -145,7 +145,7 @@ if calculation_type in ["BASAL", "CIR", "ISF"]:
         st.latex(r"ISF_{\text{AACE}} = \frac{1700}{TDD}")
 
     st.latex(
-        f"{y_term_latex} = {beta0:.2f} + {beta1:.2f}\ {bmi_latex} + {beta2:.2f}\ {cho_latex} + {beta3:.2f}\  {tdd_latex}"
+        f"{y_term_latex} = {beta0:.3f} + {beta1:.3f}\ {bmi_latex} + {beta2:.3f}\ {cho_latex} + {beta3:.3f}\  {tdd_latex}"
     )
 
 
