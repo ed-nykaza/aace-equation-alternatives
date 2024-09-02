@@ -206,7 +206,7 @@ elif calculation_type == "ISF":
     y_axis_title = "Insulin Sensitivity Factor (ISF)"
     aace_formula = "ISF = 1700 / TDD"
 
-new_formula = f"{y_term} = {beta0:.2f} + {beta1:.2f}*{bmi_term} + {beta2:.2f}*{cho_term} + {beta3:.2f}*{tdd_term}"
+new_formula = f"{y_term} = {beta0:.3f} + {beta1:.3f}*{bmi_term} + {beta2:.3f}*{cho_term} + {beta3:.3f}*{tdd_term}"
 
 hovertemplate_aace = f"AACE<br>TDD: %{{x}}<br>{calculation_type}: %{{y:.2f}}"
 hovertemplate_new = f"NEW<br>TDD: %{{x}}<br>{calculation_type}: %{{y:.2f}}"
