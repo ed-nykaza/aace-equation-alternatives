@@ -174,9 +174,9 @@ cho = selected_cho
 
 # Generate data for the plot
 if calculation_type == "BASAL":
-    tdd = np.arange(0, 101)  # Integer values from 0 to 500, inclusive
+    tdd = np.arange(0, 251)  # Integer values from 0 to 500, inclusive
 else:
-    tdd = np.arange(1, 101)  # Integer values from 1 to 500, inclusive
+    tdd = np.arange(1, 251)  # Integer values from 1 to 500, inclusive
 
 if calculation_type == "BASAL":
     y_aace = 0.5 * tdd
